@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  #portfolio {
+    margin: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    float: left;
+    background-color: white;
+    border: 3px solid rgb(226, 226, 226);
+    align-self: left;
+    position: relative;
+    min-width: 300px;
+}
+
+#portfolio h1 {
+    padding: 10px;
+    border-bottom: 3px solid rgb(226, 226, 226);
+    width: 100%;
+    color: rgb(102, 102, 102);
+}
+
+#box {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#box img {
+    z-index: 1;
+    display: inline-block;
+    width: 250px;
+}
+
+#tag {
+    background-color: #16858d;
+    height: 50px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+    bottom: 25px;
+    width: 250px;
+    max-width: 91%;
+}
+
+#tag h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #box {
+        margin-bottom: 50px;
+        width: 100%;
+        padding: 0;
+    }
+
+    #box img {
+        width: 100%;
+        max-width: none;
+    }
+
+    #tag {
+        width: 100%;
+        max-width: none;
+    }
+}

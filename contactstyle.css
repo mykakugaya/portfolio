@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  #contact-form {
+    margin: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    float: left;
+    background-color: white;
+    border: 3px solid rgb(226, 226, 226);
+    position: relative;
+    min-width: 340px;
+}
+
+#contact-form h1 {
+    padding: 10px;
+    border-bottom: 3px solid rgb(226, 226, 226);
+    width: 100%;
+    color: rgb(102, 102, 102);
+}
+
+form {
+    width: 100%;
+}
+
+button {
+    background-color: #16858d;
+    border-color: #16858d;
+}
+
+button:hover {
+    background-color: #34b5b9;
+}
