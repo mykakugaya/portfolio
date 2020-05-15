@@ -1,15 +1,7 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
-
-  #contact-form {
-    margin: 40px;
+#contact-form {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
@@ -25,18 +17,32 @@ body {
     padding: 10px;
     border-bottom: 3px solid rgb(226, 226, 226);
     width: 100%;
-    color: rgb(102, 102, 102);
+    color: rgb(85, 84, 84);
 }
 
 form {
     width: 100%;
 }
 
-button {
-    background-color: #16858d;
-    border-color: #16858d;
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: rgb(187, 20, 202);
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(187, 20, 202);
+    box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000;
 }
 
-button:hover {
-    background-color: #34b5b9;
+@media screen and (max-width: 768px) {
+    #contact-form {
+        min-width: 200px;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
