@@ -37,13 +37,23 @@
     font-size: 1.2em;
 }
 
+#info a {
+    position: relative;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#info a:hover {
+    color: rgb(5, 30, 170);
+}
+
 @media screen and (max-width: 768px) {
     #about-me {
         min-width: 350px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     #about-me {
         margin-top: 50px !important;
         min-width: 200px;
@@ -70,5 +80,9 @@
         margin: 0;
         float: left;
         font-size: 1em;
+    }
+
+    #info a {
+        margin-right: 30px;
     }
 }
