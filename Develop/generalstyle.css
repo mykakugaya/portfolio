@@ -34,7 +34,6 @@ main {
     position: relative;
     z-index: 1;
     display: flex;
-    max-height: 1000px;
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -103,10 +102,21 @@ nav ul {
     float: right;
 }
 
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li i {
+    display: inline !important;
+    color: black;
+}
+
 nav ul li a {
     color: black;
     font-size: 2em;
     font-family: 'Bebas Neue', cursive;
+    display: inline-block !important;
+    padding: 0;
 }
 
 nav ul li a:hover {
@@ -129,7 +139,7 @@ nav ul li a:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     #header {
         height: 120px;
     }
@@ -140,6 +150,7 @@ nav ul li a:hover {
         margin-bottom: 0;
         padding-top: 15px;
         padding-left: 0 !important;
+        width: 100% !important;
     }
 
     .nameText {

@@ -24,20 +24,6 @@ form {
     width: 100%;
 }
 
-/* label focus color */
-.input-field input[type=text]:focus + label {
-    color: rgb(187, 20, 202);
-}
-/* label underline focus color */
-.input-field input[type=text]:focus {
-    border-bottom: 1px solid rgb(187, 20, 202);
-    box-shadow: 0 1px 0 0 #000;
-}
-/* icon prefix focus color */
-.input-field .prefix.active {
-    color: #000;
-}
-
 @media screen and (max-width: 768px) {
     #contact-form {
         min-width: 200px;

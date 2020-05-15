@@ -45,6 +45,7 @@
 
 @media screen and (max-width: 600px) {
     #about-me {
+        margin-top: 50px !important;
         min-width: 200px;
         margin: 0 auto;
         padding-top: 10px;

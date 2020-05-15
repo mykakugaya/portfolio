@@ -1,5 +1,7 @@
 #portfolio {
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
@@ -7,10 +9,8 @@
     float: left;
     background-color: white;
     border: 3px solid rgb(226, 226, 226);
-    align-self: left;
     position: relative;
-    min-width: 300px;
-    max-width: 500px;
+    min-width: 340px;
 }
 
 #portfolio h1 {
@@ -20,52 +20,52 @@
     color: rgb(102, 102, 102);
 }
 
-#box {
+i {
+    margin-right: 10px;
+}
+
+img {
     float: left;
-    padding: 10px;
-    text-align: center;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+h4 {
     position: relative;
-    margin-bottom: 20px;
 }
 
-#box img {
-    z-index: 1;
-    display: inline-block;
-    width: 250px;
+p {
+    position: relative;
 }
 
-#tag {
-    background-color: #16858d;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    z-index: 2;
-    display: inline-block;
-    bottom: 25px;
-    width: 250px;
-    max-width: 91%;
+.item {
+    margin-bottom: 50px !important;
+    padding-bottom: 50px !important;
+    border-bottom: 2px solid rgb(226, 226, 226);
 }
 
-#tag h2 {
-    color: white;
-    font-size: 20px;
-    text-align: center;
+a:hover {
+    color: rgb(5, 30, 170);
 }
 
 @media screen and (max-width: 768px) {
-    #box {
-        margin-bottom: 50px;
-        width: 100%;
-        padding: 0;
+    #portfolio {
+        min-width: 350px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #portfolio {
+        margin-top: 50px !important;
+        min-width: 200px;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: center;
     }
 
-    #box img {
-        width: 100%;
-        max-width: none;
-    }
-
-    #tag {
-        width: 100%;
-        max-width: none;
+    img {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
