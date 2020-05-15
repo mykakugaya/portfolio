@@ -109,6 +109,10 @@ nav ul li a {
     font-family: 'Bebas Neue', cursive;
 }
 
+nav ul li a:hover {
+    color: rgb(13, 152, 170);
+}
+
 @media screen and (max-width: 768px) {
     .headerName {
         width: 100%;
@@ -150,12 +154,15 @@ nav ul li a {
         height: 50px;
         text-align: center;
         justify-content: center;
-        padding-left: 25%;
+        width: 100%;
     }
 
     .nav-wrapper {
-        margin: 0 auto !important;
         float: left;
+        width: 100%;
+        justify-content: center !important;
+        align-content: center !important;
+        display: inline-flex;
     }
 
     nav ul {
