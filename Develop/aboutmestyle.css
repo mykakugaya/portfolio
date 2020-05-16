@@ -51,6 +51,18 @@
     color: rgb(5, 30, 170);
 }
 
+#resumeDiv {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#resumeImg {
+    border: 2px solid rgb(228, 225, 225);
+    max-width: 600px;
+}
+
 @media screen and (max-width: 768px) {
     #about-me {
         min-width: 350px;
@@ -88,5 +100,9 @@
 
     #info a {
         margin-right: 30px;
+    }
+
+    #resumeImg {
+        max-width: 330px !important;
     }
 }
