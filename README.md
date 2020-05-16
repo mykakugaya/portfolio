@@ -1,3 +1,2 @@
-https://mykakugaya.github.io/portfolio/
-
-Portfolio
+Professional Portfolio
+Link: https://mykakugaya.github.io/portfolio/
