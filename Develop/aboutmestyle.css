@@ -37,6 +37,10 @@
     font-size: 1.2em;
 }
 
+#info i {
+    margin-right: 10px;
+}
+
 #info a {
     position: relative;
     font-size: 1em;

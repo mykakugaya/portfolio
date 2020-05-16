@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prata&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="generalstyle.css">
     <link rel="stylesheet" href="portfoliostyle.css">
 
@@ -39,37 +39,102 @@
                     <div class="row">
                         <h1>Portfolio</h1>
                     </div>
+
                     <!--README generator-->
-                    <div class="row item">
+                    <!-- <div class="row item">
                         <img class="circle responsive-image" src="../images/readme.jpg" alt="README generator">
                         <h4>README generator</h4>
+
+                        <a class="waves-effect waves-light btn modal-trigger" href="#readmeModal"><i class="material-icons left">visibility</i>Preview</a>
+                        <div id="readmeModal" class="modal">
+                            <div class="modal-content">
+                                <h4>README generator</h4>
+                                <img src="#" alt="README generator">
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+
                         <p>Generates an appropriate README.md file for a project Github repository based on prompted user information.</p>
-                        <p><i class="material-icons prefix">launch</i><a target="_blank" href="https://mykakugaya.github.io/readme-generator">Deployed application</a></p>
-                        <p><i class="material-icons prefix">build</i><a target="_blank" href="https://github.com/mykakugaya/readme-generator">Github repository</a></p>
-                    </div>
+                        <p>
+                            <i class="material-icons prefix">launch</i><a target="_blank" href="https://mykakugaya.github.io/readme-generator">Deployed application</a>
+                            <br>
+                            <i class="material-icons prefix">build</i><a target="_blank" href="https://github.com/mykakugaya/readme-generator">Github repository</a>
+                        </p>
+                    </div> -->
+
                     <!--Project 1: Foodies and Movies-->
                     <div class="row item">
                         <img class="circle responsive-image" src="../images/foodies.jpg" alt="Foodies And Movies">
                         <h4>Foodies and Movies</h4>
+                        <!-- Modal Trigger for preview -->
+                        <a class="waves-effect waves-light btn modal-trigger" href="#foodiesModal"><i class="material-icons left">visibility</i>Preview</a>
+                        <!-- Modal Structure -->
+                        <div id="foodiesModal" class="modal">
+                            <div class="modal-content">
+                                <h4>Foodies and Movies</h4>
+                                <img src="../images/foodiesPreview.jpg" alt="Foodies and Movies">
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+                        <!--Info and links-->
                         <p>Allows users to generate and save food and drink recipes by category when making meals at home. Complement your meal with a random movie generated for you!</p>
-                        <p><i class="material-icons prefix">launch</i><a target="_blank" href="https://mykakugaya.github.io/foodies-and-movies">Deployed application</a></p>
-                        <p><i class="material-icons prefix">build</i><a target="_blank" href="https://github.com/mykakugaya/foodies-and-movies">Github repository</a></p>
+                        <p>
+                            <i class="material-icons prefix">launch</i><a target="_blank" href="https://mykakugaya.github.io/foodies-and-movies">Deployed application</a>
+                            <br>
+                            <i class="material-icons prefix">build</i><a target="_blank" href="https://github.com/mykakugaya/foodies-and-movies">Github repository</a>
+                        </p>
                     </div>
                     <!--Weather Dashboard-->
                     <div class="row item">
                         <img class="circle responsive-image" src="../images/weather.jpg" alt="Weather Dashboard">
                         <h4>Weather Dashboard</h4>
+                        <!-- Modal Trigger for preview -->
+                        <a class="waves-effect waves-light btn modal-trigger" href="#weatherModal"><i class="material-icons left">visibility</i>Preview</a>
+                        <!-- Modal Structure -->
+                        <div id="weatherModal" class="modal">
+                            <div class="modal-content">
+                                <h4>Weather Dashboard</h4>
+                                <img src="../images/weatherPreview.jpg" alt="Weather Dashboard">
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+                        <!--Info and links-->
                         <p>Users may search any city name to access its current weather and 5-day forecast data. Allows users who are anticipating travel or daily outings to plan accordingly.</p>
-                        <p><i class="material-icons prefix">launch</i><a target="_blank" href="https://mykakugaya.github.io/weather-dashboard">Deployed application</a></p>
-                        <p><i class="material-icons prefix">build</i><a target="_blank" href="https://github.com/mykakugaya/weather-dashboard">Github repository</a></p>
+                        <p>
+                            <i class="material-icons prefix">launch</i><a target="_blank" href="https://mykakugaya.github.io/weather-dashboard">Deployed application</a>
+                            <br>
+                            <i class="material-icons prefix">build</i><a target="_blank" href="https://github.com/mykakugaya/weather-dashboard">Github repository</a>
+                        </p>
                     </div>
                     <!--Workday Scheduler-->
                     <div class="row item">
                         <img class="circle responsive-image" src="../images/workday.jpg" alt="Workday Scheduler">
                         <h4>Workday Scheduler</h4>
-                        <p>A simple daily planner that allows users to save/store their important events for each hour of the workday (9am-5pm). Track the current time and scheduled events to manage time efficiently when faced with a busy schedule.</p>
-                        <p><i class="material-icons prefix">launch</i><a target="_blank" href="https://mykakugaya.github.io/workday-scheduler">Deployed application</a></p>
-                        <p><i class="material-icons prefix">build</i><a target="_blank" href="https://github.com/mykakugaya/workday-scheduler">Github repository</a></p>
+                        <!-- Modal Trigger for preview -->
+                        <a class="waves-effect waves-light btn modal-trigger" href="#workdayModal"><i class="material-icons left">visibility</i>Preview</a>
+                        <!-- Modal Structure -->
+                        <div id="workdayModal" class="modal">
+                            <div class="modal-content">
+                                <h4>Workday Scheduler</h4>
+                                <img src="../images/workdayPreview.jpg" alt="Workday Scheduler">
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+                        <!--Info and links-->
+                        <p>Simple daily planner that allows users to save/store their important events for each hour of the workday (9am-5pm). Track the current time and scheduled events to manage time efficiently when faced with a busy schedule.</p>
+                        <p>
+                            <i class="material-icons prefix">launch</i><a target="_blank" href="https://mykakugaya.github.io/workday-scheduler">Deployed application</a>
+                            <br>
+                            <i class="material-icons prefix">build</i><a target="_blank" href="https://github.com/mykakugaya/workday-scheduler">Github repository</a>
+                        </p>
                     </div>
             </div>
         </div>
@@ -78,7 +143,8 @@
     <footer class="footer grey lighten-2">© Copyright 2020</footer>
 
     <!--Javascript and jQuery-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="portfolio.js"></script>
 </body>
 </html>
