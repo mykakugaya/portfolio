@@ -1,2 +1,2 @@
 Professional Portfolio
-Link: https://mykakugaya.github.io/portfolio/
+Link: https://mykakugaya.github.io/portfolio/Develop/index.html
