@@ -59,6 +59,10 @@ p {
     max-width: 800px;
 }
 
+#readmeVideo {
+    font-size: 20px;
+}
+
 @media screen and (max-width: 768px) {
     #portfolio {
         min-width: 350px;
