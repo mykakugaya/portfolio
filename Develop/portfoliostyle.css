@@ -63,6 +63,10 @@ p {
     font-size: 20px;
 }
 
+#employeeVideo {
+    font-size: 20px;
+}
+
 @media screen and (max-width: 768px) {
     #portfolio {
         min-width: 350px;
