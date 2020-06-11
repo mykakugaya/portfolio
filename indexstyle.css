@@ -15,7 +15,7 @@ main {
 }
 
 .hero-image {
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url("..//images/flowers.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url("./images/flowers.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
