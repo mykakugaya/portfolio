@@ -27,7 +27,7 @@ main {
 }
 
 main {
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("..//images/flowers.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./images/flowers.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
